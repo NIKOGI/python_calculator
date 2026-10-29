@@ -1,11 +1,13 @@
 #calculator
 
-a python 4 calculator used from the terminal, built step by step in sccm4910
+a python 3 calculator used from the terminal, built step by step in sccm4910
 
 ##what will it do
 Add, subtract, multiply and divide two numbers and display the result.
 
 #how to run it
-Run: python3 calculator.py
+Run: python3 calculator.py or use ./run.sh
 enter the first number, operator(+-*/), then the second number
 the program prints the result: followed by the answer
+sample test: 5 * 5
+use ctrl + c to stop it form running
