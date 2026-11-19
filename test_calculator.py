@@ -1,4 +1,4 @@
-from calculator import add, subtract, multiply, divide
+from calculator import add, subtract, multiply, divide, CircleArea
 
 def test_multiply_zero():
 	#arrange
@@ -19,3 +19,6 @@ def test_multiply():
 
 def test_subtract():
 	assert subtract(3,2) == 1
+
+def test_circleArea():
+	assert CircleArea(-4) == "Error"
